@@ -1,2 +1,4 @@
 # nate
-Network Auto Tester and Evaluatro
+Network Auto Tester and Evaluator (NATE)
+
+Check the documentation in doc/main.pdf

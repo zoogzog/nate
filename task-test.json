@@ -3,8 +3,8 @@
   [
     {
       "tasktype": "img2img",
-      "taskstage": "s2e",
-      "taskcheckpoint": "",
+      "taskstage": "test",
+      "taskcheckpoint": "D:/nate/m-11012019-172302.pth.tar",
 
       "database": "D:/ANDREY/DevNate/test/dbimg",
       "dataset_train": "D:/ANDREY/DevNate/test/dataset/dataset-i2i.txt",

@@ -117,12 +117,12 @@ class TaskEnvironment():
 
         # ---- If we want to do testing or resume training then load the network from checkpoint
         if taskStage == TaskSettings.TASK_STAGE_RESUME or taskStage == TaskSettings.TASK_STAGE_TEST:
-            try:
+            #try:
                 checkpointPath = settings.getTASK_CHECKPOINT()
                 checkpointModel = torch.load(checkpointPath)
                 self.NETWORK_MODEL.load_state_dict(checkpointModel['state_dict'])
-            except:
-                return False
+            #except:
+            #    return False
 
         return True
 

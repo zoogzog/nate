@@ -1,0 +1,35 @@
+{
+  "tasklist":
+  [
+    {
+      "tasktype": "class",
+      "taskstage": "s2e",
+
+      "database": "D:/ANDREY/Nate/nate/test/dbimg",
+      "dataset_train": "D:/ANDREY/Nate/nate/test/dataset/dataset-cl.txt",
+      "dataset_validate": "D:/ANDREY/Nate/nate/test/dataset/dataset-cl.txt",
+      "dataset_test": "D:/ANDREY/Nate/nate/test/dataset/dataset-cl.txt",
+
+      "output_log": "D:/nate/",
+      "output_model": "D:/nate/",
+      "output_accuracy": "D:/nate/",
+
+      "network": "densenet121",
+      "network_istrained": true,
+      "network_classcount": 1,
+      "activation": "sigmoid",
+
+      "trnsfrm_train": ["resize", "ccrop"],
+      "trnsfrm_train_param": [256, 224],
+      "trnsfrm_validate": ["resize", "ccrop"],
+      "trnsfrm_validate_param": [256, 224],
+      "trnsfrm_test": ["resize", "ccrop"],
+      "trnsfrm_test_param": [256, 224],
+
+      "loss": "MSE",
+      "epoch": 4,
+      "lrate": 0.001,
+      "batch": 4
+    }
+  ]
+}

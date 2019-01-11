@@ -1,0 +1,25 @@
+{
+  "tasklist":
+  [
+    {
+      "tasktype": "img2img",
+      "taskstage": "test",
+      "taskcheckpoint": "D:/ANDREY/Nate/nate/test/model/m-11012019-172302.pth.tar",
+
+      "database": "D:/ANDREY/DevNate/test/dbimg",
+      "dataset_test": "D:/ANDREY/DevNate/test/dataset/dataset-i2i.txt",
+
+      "output_accuracy": "D:/nate/",
+
+      "network": "fcdensenet50",
+      "network_istrained": true,
+      "network_classcount": 3,
+      "activation": "sigmoid",
+
+      "trnsfrm_test": ["resize", "ccrop"],
+      "trnsfrm_test_param": [256, 224],
+
+      "batch": 4
+    }
+  ]
+}

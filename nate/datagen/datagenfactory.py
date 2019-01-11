@@ -30,9 +30,6 @@ class DatagenFactory():
         """
         if not isinstance(setArgs, list): return None
 
-        print(generatorType)
-        print(setArgs)
-
         # -------------------- CLASSIFICATION --------------------
         if generatorType.upper() == DatagenFactory.DATAGEN_CLASSIFICATION:
             if len(setArgs) < 1: return None
