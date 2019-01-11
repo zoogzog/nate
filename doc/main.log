@@ -1,0 +1,134 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.5.14)  11 JAN 2019 10:37
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\comment\comment.s
+ty"
+\CommentStream=\write3
+ Excluding comment 'comment')
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\fullpage
+.sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+
+("C:\Users\Andrey\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\xete
+x.def"
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+
+ []
+
+
+Overfull \hbox (127.65572pt too wide) in paragraph at lines 63--63
+[]      \TU/lmtt/m/n/10.95 "dataset_train": "D:/ANDREY/DevXray/in_datasets/hand
+ai-03/s8510-t1/cls-s8510-t1-2016-test.txt",[] 
+ []
+
+
+Overfull \hbox (144.90196pt too wide) in paragraph at lines 63--63
+[]      \TU/lmtt/m/n/10.95 "dataset_validate": "D:/ANDREY/DevXray/in_datasets/h
+andai-03/s8510-t1/cls-s8510-t1-2016-test.txt",[] 
+ []
+
+
+Overfull \hbox (121.90697pt too wide) in paragraph at lines 63--63
+[]      \TU/lmtt/m/n/10.95 "dataset_test": "D:/ANDREY/DevXray/in_datasets/handa
+i-03/s8510-t1/cls-s8510-t1-2016-test.txt",[] 
+ []
+
+[1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 67.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 67.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 67.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 67.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 67.
+ [2] [3]
+File: img/convnet12.png Graphic file (type bmp)
+<img/convnet12.png>
+File: img/schemenate1.png Graphic file (type bmp)
+<img/schemenate1.png>
+ [4] [5] [6] (main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 713 strings out of 427836
+ 8825 string characters out of 3148321
+ 77326 words of memory out of 3000000
+ 4701 multiletter control sequences out of 15000+200000
+ 7371 words of font info for 36 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 25i,8n,19p,736b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on main.pdf (6 pages).
