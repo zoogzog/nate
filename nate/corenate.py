@@ -31,11 +31,15 @@ class Nate():
 
             if not isSilentMode: print ("Launching task ID=" + str(i))
 
-            #try:
-            TaskLauncher.launch(task, workerCount, isSilentMode)
-            #except:
-            #if not isSilentMode: print("EXCEPTION: Run-time exception occurred during task ID=" + str(i))
-
+            try:
+                TaskLauncher.launch(task, workerCount, isSilentMode)
+            except Exception as e:
+                if not isSilentMode:
+                    print("EXCEPTION: Run-time exception occurred during task ID=" + str(i))
+                    print("---------------------------------------------------------------")
+                    print(e)
+                    print("---------------------------------------------------------------")
+                    print("EXCEPTION: Switching to the next task in the list")
 
 
 
