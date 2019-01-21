@@ -231,12 +231,12 @@ class CoreAlgorithm():
 
             if isSilentMode == False:
                 print("[TESTING]: sample " + str(i) + " " + str(len(dLoaderTest)))
+            with torch.no_grad():
+                target = target.cuda()
+                outGT = torch.cat((outGT, target), 0)
+                out = nnModel(input)
 
-            target = target.cuda()
-            outGT = torch.cat((outGT, target), 0)
-            out = nnModel(input)
-
-            outPRED = torch.cat((outPRED, out.data), 0)
+                outPRED = torch.cat((outPRED, out.data), 0)
 
 
         dataGT = outGT.cpu().numpy()
